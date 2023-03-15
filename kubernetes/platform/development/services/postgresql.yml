@@ -18,9 +18,9 @@ spec:
           image: postgres:14.4
           env:
             - name: POSTGRES_USER
-              value: user
+              value: pguser
             - name: POSTGRES_PASSWORD
-              value: password 
+              value: pgpass
             - name: POSTGRES_DB
               value: polardb_catalog
           resources:
